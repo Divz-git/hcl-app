@@ -1,0 +1,8 @@
+version: "3.8"
+services: 
+ divapp1: # name of app which can be anything 
+  image: divyahcl:appv1 # name of iamge i want to build
+  build: . # location of dockerfile 
+  container_name: divyac111
+  ports:
+  - 1088:80
